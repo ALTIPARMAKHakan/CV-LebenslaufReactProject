@@ -1,0 +1,84 @@
+@charset "utf-8";
+.blink {
+        animation: blinker 1s linear 1;
+    
+}
+@keyframes blinker {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+header,
+main,
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 45px;
+    padding: 15px;
+    font-weight: 500;
+    border: 3px turquoise inset;
+    border-radius: 10px;
+    line-height: 200%;
+}
+footer {
+    text-align: center;
+}
+
+
+h1{
+    
+    font-style: bold;
+    color: #4e4e86;
+    font-size: 18px;
+    text-decoration: overline underline blink;
+    
+    
+    
+}
+h2{
+    font-size: 16px;
+    color: #00467C;
+    text-decoration: underline;
+  
+    
+}
+h3{
+    font-size: 14px;
+    color: #00467C;
+    font-style: italic;
+    
+    
+}
+p, li{
+    font-size: 12px;
+    color:#0072B4;
+    text-align: justify;
+ 
+}
+.job-history{
+    /* border: 1px black solid; */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.foto{
+    width: 200px;
+    height: auto;
+   
+ 
+     margin: 10px;
+     padding: 1px;
+     text-align: center;
+ 
+    
+ }
+ img{
+     width :100%;
+     border-radius: 200px;
+     border: 1px solid crimson;
+     box-shadow: 0 3px 20px rgb(0 0 0 / 0.6);
+    
+     
+ }
