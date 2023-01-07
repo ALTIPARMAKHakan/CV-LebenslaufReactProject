@@ -57,6 +57,18 @@ p, li{
     text-align: justify;
  
 }
+#github-div{ 
+    text-align: right;
+    margin-left: 10px;
+   
+}
+#link-wrapper{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
 .job-history{
     /* border: 1px black solid; */
     border-radius: 10px;

@@ -1,6 +1,6 @@
 import { Component } from "react"
 
-const beisipiel = "Hallo, dies ist ein Testskript."
+const beisipiel = ""
 const berufInfo ="Formulierung der dazu notwendigen chemischen Komponenten"
 function HistoryEntry(props){
 
@@ -31,7 +31,7 @@ class Beruf extends Component{
             "zeit": "2019-Heute",
             "name" : "Freelancer, 3D Designer, Programmier-Enthusiast",
             "keyPoints" : ["3Dsmax", "Arduino", "Phyton"],
-            "description" : `Codierung der Kleinmaschinenautomatisierung mit Arduino und Eigenstudium zu Machine & Deep Learning mit Tensorflow und Python, ${beisipiel}`
+            "description" : `Codierung der Kleinmaschinenautomatisierung mit Arduino und Eigenstudium zu Machine & Deep Learning mit Tensorflow und Python ${beisipiel}`
         }
 
         const entryAlpaEndustri = {
@@ -97,7 +97,7 @@ class Studium extends Component{
             "zeit": "2002-2005",
             "name" : "Istek Bilge Kagan Naturwissenschaft Gymnasium",
             "keyPoints" : [],
-            "description" : `Hallo, ${beisipiel}`
+            "description": ""
         }
 
         return(
@@ -122,12 +122,12 @@ class FahigkeitundKentnisse extends Component{
         const entrySoftware ={
             "name":"Software",
             "keyPoints":["Microsoft Excel","Word","Powerpoint","Project","Adobe Photoshop","Illustrator","Corel Draw","3DsMax","Autocad","Micromine","Surpac","Whittle","Surfer"],
-            "description": `Hallo, ${beisipiel}`
+            "description": ""
         }
         const entrySprachen ={
             "name":"Sprachen",
             "keyPoints":["Turkisch-MutterSprache","Englisch-C1", "Deutsch-B2"],
-            "description":`Hallo,${beisipiel}`
+            "description":""
         }
         const entryFührerschein ={
             "name": "Führerschein",
@@ -154,13 +154,13 @@ class Hobbys extends Component{
         const entryMusic ={
             "name": "Musik",
             "keyPoints":["Gitarre spielen","Klarinette spielen"],
-            "description":`Musik muss das Herz berühren, ${beisipiel}`
+            "description":`Musik muss das Herz berühren ${beisipiel}`
         }    
 
         const entrySport ={
             "name": "Sport",
             "keyPoints":["Eishockey Spielen", "Laufen", "Fahrrad Fahren"],
-            "description" :`Sport ist meine Lebensphilosophie, ${beisipiel}`
+            "description" :`Sport ist meine Lebensphilosophie ${beisipiel}`
         }
         
             return (
@@ -181,7 +181,7 @@ class History extends Component {
     render(){
         return(
             <div className="blink">
-                <Beruf title="Beruf Erfahrung" description={berufInfo} />
+                <Beruf title="Beruf Erfahrung" description={""} />
                 <Studium title="Studium" description={beisipiel} />
                 <FahigkeitundKentnisse title="Fahigkeit und Kentnisse" description="Meine Skills" />
                 <Hobbys title="Hobbies" description="Meine Hobbies" />

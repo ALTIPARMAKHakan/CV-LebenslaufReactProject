@@ -9,10 +9,16 @@ class Header extends Component{
     render(){
         const headerCv2 = "CV "
         const headerCv1 = "Hakan Altiparmak"
+        const github = "GitHub link"
+        const linkedin = "Linkedin link"
         return(
             <header className='header, blink'>
                 <h1>{headerCv1}</h1>
                 <h2>{headerCv2}</h2>
+                <div id="link-wrapper">
+                    <div style={{textAlign:"right"}}><a href="https://www.linkedin.com/in/altiparmakhakan/" target="_blank">{linkedin}</a></div>
+                    <div id="github-div"><a href="https://github.com/ALTIPARMAKHakan" target="_blank">{github}</a></div>
+                </div>
             </header>
         )
     }
