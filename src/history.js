@@ -30,9 +30,17 @@ class Beruf extends Component{
         const entryFreelancer ={
             "zeit": "2019-Heute",
             "name" : "Freelancer, 3D Designer, Programmier-Enthusiast",
-            "keyPoints" : ["3Dsmax", "Arduino", "Phyton"],
-            "description" : `Codierung der Kleinmaschinenautomatisierung mit Arduino und Eigenstudium zu Machine & Deep Learning mit Tensorflow und Python ${beisipiel}`
+            "keyPoints": ["3Dsmax Rendering > Modellierung von Innenarchitekturzeichnungen.",
+                "Codierung der Kleinmaschinenautomatisierung mit Arduino > Kodierung von industriellen Automatisierungsgeräten mit Timer, Motorantriebssteuerung, Benutzerschnittstelle und Sensorempfindlichkeit.",
+                "Ich entwickle mich selbst über künstliche Intelligenz und Deep Learning mit Tensorflow- und Pythonprogrammen.",
+                "CMS > Reseller-Management(Unix), SEO-Optimierung, WordPress, Joomla, Drupal, PrestaShop, Magento -Site-Einrichtung und Modulschreiben",
+                "JavaScript (Kurs bei Alfa Training) > Responsive Website-Design mit JavaScript-Grundlagen und aktueller CSS-Terminologie",
+                "React (Kurs bei Alfa Training) > Mit React ist es so konzipiert, dass es drei verschiedene Themenoptionen und einen wechselnden Videohintergrund mit dieser Auswahl sowie eine kategorische Anzeige von alkoholischen und alkoholfreien Cocktails und Rezepten mit den Daten aus der OnlineDatenbank anzeigt.",
+                "React (Kurs bei AlfaTraining) > Erstellen einer Lebenslauf-Website mit React.",
+            "React (Kurs bei AlfaTraining) > Notizblock und ToDo-Liste."],
+            "description" : `Html, Css, Php, CMS, Javascript, React`
         }
+
 
         const entryAlpaEndustri = {
             "zeit": "2015-2018",
@@ -69,7 +77,20 @@ class Beruf extends Component{
 class Studium extends Component{
     render(){
         // const educationHistory = "Studium";
-        const entryRwth ={
+        const entryAlfa = {
+            "zeit": "2022(12 Wochen)",
+            "name": "Alfa Training GmbH (Hamburg)",
+            "keyPoints": ["Javascript", "React"],
+            "description":"JavaScript Developer Kurs, React JavaScript-Bibliothek Kurs"
+            
+        }
+        const entryItucu = {
+            "zeit": "2018(12 Wochen)",
+            "name": "Istanbul Ticaret Universität",
+            "keyPoints": [],
+            "description":"Entwicklung mobiler Anwendungen für Android- und iOS-Systeme"
+        }
+        const entryRwth = {
             "zeit": "2014-2015",
             "name" : "RWTH Aachen Universität",
             "keyPoints" : [],
@@ -105,6 +126,8 @@ class Studium extends Component{
                 <h2>{this.props.title}</h2>
                 <p>{this.props.description}</p>
                 <div className='history'>
+                    <HistoryEntry currentEntry={entryAlfa} />
+                    <HistoryEntry currentEntry={entryItucu}/>
                     <HistoryEntry currentEntry={entryRwth}/>
                     <HistoryEntry currentEntry={entryItu}/>
                     <HistoryEntry currentEntry={entryAnadolu}/>
