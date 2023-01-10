@@ -76,7 +76,7 @@ class Studium extends Component{
             "description" : `M.Sc., BBK3-Bergbau Fakultät-Bergbau Ingenieur`
         } 
         const entryItu ={
-            "zeit": "2012-2015",
+            "zeit": "2012-2018",
             "name" : "Istanbul Technik Universität",
             "keyPoints" : [],
             "description" : `M.Sc., Bergbau Fakultät-Bergbau Ingenieur`
