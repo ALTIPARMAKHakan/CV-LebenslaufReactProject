@@ -21,9 +21,33 @@ footer{
     border: 3px turquoise inset;
     border-radius: 10px;
     line-height: 200%;
+    
 }
 footer {
     text-align: center;
+}
+footer a:link{
+    border:1px black solid;    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 3px;      
+    margin: 2px;
+    padding: 3px;
+    text-decoration: none;
+    line-height: 20px;
+    justify-content: flex-end;   
+    background-color: #0072B4;
+    color: azure;
+    
+}
+footer a:hover{
+    background-color: orange;
+    
+}
+footer a:visited{
+    color: azure;
+    
 }
 
 
@@ -67,6 +91,10 @@ p, li{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    
+}
+#link-wrapper div a:visited{
+    color: transparent;
     
 }
 .job-history{
